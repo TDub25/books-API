@@ -24,7 +24,7 @@ app.use("/books", booksController);
 
 //test route
 app.get("/", (req, res) => {
-    res.send("test route");
+    res.send("Hello San Diego!!!");
 });
 
 //run server
